@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#jspsych-target {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #444;
+}
+
+.jspsych-survey-multi-choice-question,
+.jspsych-survey-likert-statement,
+.jspsych-survey-text-question {
+    background-color: #f0f0f5;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+.jspsych-survey-multi-choice-option,
+.jspsych-survey-likert-option {
+    text-align: center;
+}
+
+button.jspsych-btn {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.jspsych-btn:hover {
+    background-color: #357ae8;
+}
